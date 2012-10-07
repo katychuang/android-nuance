@@ -11,92 +11,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
-    <style>
-      
-      /* #Slides formatting
-      ================================================== */
-      /*
-        Slideshow
-      */
-      
-      #slides {	z-index:100;margin-left:-10px;}
-      
-      /*
-      	Slides container
-      	Important:
-      	Set the width of your slides container
-      	Set to display none, prevents content flash
-      */
-      
-      .slides_container {	width:485px; 	position:relative;	display:none;}
-      
-      /*
-      	Each slide
-      	Important:
-      	Set the width of your slides
-      	If height not specified height will be set by the slide content
-      	Set to display block
-      */
-      
-      .slides_container div.slide {
-      	width:485px;
-      	height:885px;
-      	display:block; 
-      }
-      
-      
-	/*
-		Pagination
-	*/
-	
-	.pagination {
-		margin:auto;
-		width:100px;
-	}
-	
-	.pagination li {
-		float:left;
-		margin:auto;
-		list-style:none;
-	}
-	
-	.pagination li a {
-		display:block;
-		width:12px;
-		height:0;
-		background-image:url(http://katychuang.github.com/media/images/pagination.png);
-		background-position:0 0;
-		float:left;
-		overflow:hidden;
-	}
-	
-	.pagination li.current a {
-		background-position:0 -22px;
-	}
-	
-	/*
-		Caption
-	*/
-	
-	.caption {
-		z-index:500;
-		position:absolute;
-		bottom:-35px;
-		left:0;
-		height:30px;
-		padding:9px 20px 0 20px;
-		background:#000;
-		background:rgba(0,0,0,.5);
-		width:445px;
-		font-size:0.9em;
-		line-height:1.0;
-		color:#fff;
-		border-top:1px solid #000;
-		text-shadow:none;
-	}
 
-    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -121,26 +36,11 @@
 </blockquote>
 
 <p>How it works: When you tap your phone against and object, you can get the color values.</p>
-<div id="slides">
-		<div class="slides_container"> 
-			<div class="slide">
-			
-				<img src="https://raw.github.com/katychuang/android-nuance/master/prod01_color.png"  alt="Screen1">
-				<div class="caption" style="bottom:0">
-				<p>Color values displayed</p>
-				</div>
-			</div>
-				 
-		<div class="slide">
-			<img src="https://raw.github.com/katychuang/android-nuance/master/prod02_match.png" alt="Screen2">
-			<div class="caption" style="bottom:0">
-			<p>Color scheme options</p>
-			</div>
-		</div> 					
-	</div> <!--end slides_container --> 
-	<a href="#" class="prev"></a>
-	<a href="#" class="next"></a>			
-</div>
+<img src="https://raw.github.com/katychuang/android-nuance/master/prod01_color.png"  alt="Screen1">
+<br>
+<img src="https://raw.github.com/katychuang/android-nuance/master/prod02_match.png" alt="Screen2">
+				
+
 
       </section>
       <footer>
@@ -148,8 +48,6 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-    <script src="http://katychuang.github.com/media/js/libs/slides.jquery.js"></script>
+    <script src="javascripts/scale.fix.js"></script> 
   </body>
 </html>
