@@ -77,6 +77,58 @@
       	height:885px;
       	display:block; 
       }
+      
+      
+	/*
+		Pagination
+	*/
+	
+	.pagination {
+		margin:auto;
+		width:100px;
+	}
+	
+	.pagination li {
+		float:left;
+		margin:auto;
+		list-style:none;
+	}
+	
+	.pagination li a {
+		display:block;
+		width:12px;
+		height:0;
+		background-image:url(http://katychuang.github.com/media/images/pagination.png);
+		background-position:0 0;
+		float:left;
+		overflow:hidden;
+	}
+	
+	.pagination li.current a {
+		background-position:0 -22px;
+	}
+	
+	/*
+		Caption
+	*/
+	
+	.caption {
+		z-index:500;
+		position:absolute;
+		bottom:-35px;
+		left:0;
+		height:30px;
+		padding:9px 20px 0 20px;
+		background:#000;
+		background:rgba(0,0,0,.5);
+		width:445px;
+		font-size:0.9em;
+		line-height:1.0;
+		color:#fff;
+		border-top:1px solid #000;
+		text-shadow:none;
+	}
+
     </style>
   </head>
   <body>
@@ -129,6 +181,7 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
     <script src="https://raw.github.com/katychuang/katychuang.github.com/master/media/js/libs/slides.jquery.js"></script>
   </body>
 </html>
